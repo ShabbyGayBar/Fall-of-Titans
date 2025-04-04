@@ -1,0 +1,189 @@
+﻿### Titan Traits
+
+founding_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/celebrity_commander.dds"
+
+	character_modifier = {
+		character_popularity_add = 200
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+colossal_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/experienced_convoy_raider.dds"
+
+	command_modifier = {
+		unit_offense_add = 40
+		unit_kill_rate_add = 1
+		unit_morale_damage_mult = 1
+		character_battle_condition_surprise_maneuver_mult = 1.5
+		character_battle_condition_aggressive_maneuver_mult = 3	
+		unit_devastation_mult = 100
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+war_hammer_titan = {
+	type = skill
+ 	texture = "gfx/interface/icons/character_trait_icons/political_appointee.dds"
+
+	command_modifier = {
+		unit_offense_add = 30
+		unit_defense_add = 10
+		character_battle_condition_surprise_maneuver_mult = 1.5
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+female_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/romantic.dds"
+
+	command_modifier = {
+		unit_offense_add = 20
+		unit_defense_add = 20
+		character_battle_condition_surprise_maneuver_mult = 1.5
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+armored_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/stalwart_defender.dds"
+
+	command_modifier = {
+		unit_defense_add = 40
+		character_battle_condition_careful_maneuver_mult = 1
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+beast_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/brave.dds"
+
+	command_modifier = {
+		unit_offense_add = 10
+		unit_defense_add = 10
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+jaw_titan = {
+ 	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/cruel.dds"
+
+ 	command_modifier = {
+		unit_offense_add = 20
+		military_formation_movement_speed_mult = 0.1
+ 	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+ 	weight = 0
+}
+
+cart_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/resupply_commander.dds"
+
+	command_modifier = {
+		unit_supply_consumption_mult = -0.1
+		character_supply_route_cost_mult = -0.5
+		military_formation_movement_speed_mult = 1
+		character_battle_condition_logistics_secured_mult = 1
+		character_battle_condition_broken_supply_line_mult = -0.9
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
+
+attack_titan = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/reckless.dds"
+
+	command_modifier = {
+		unit_offense_add = 20
+		unit_defense_add = 10
+	}
+
+	possible = {
+		# character's culture has ymir_heritage trait
+		OR = {
+			culture = cu:continental_eldian
+			culture = cu:islandic_eldian
+		}
+	}
+
+	weight = 0
+}
