@@ -1,0 +1,3 @@
+﻿vow_renouncing_war_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+}
