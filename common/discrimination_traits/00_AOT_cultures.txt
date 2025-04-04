@@ -1,0 +1,5 @@
+﻿eldian_language = {}
+
+ymir_heritage = {
+	heritage = yes
+}
