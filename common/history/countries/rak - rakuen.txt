@@ -1,0 +1,13 @@
+﻿COUNTRIES = {
+	c:RAK ?= {
+		effect_starting_technology_tier_6_tech = yes
+
+		add_technology_researched = titan_injection # Although all titans are actually from Marley
+
+		effect_starting_politics_traditional = yes
+
+		add_modifier = { # The vow renouncing war
+			name = vow_renouncing_war_modifier
+		}
+	}
+}

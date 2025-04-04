@@ -1,0 +1,13 @@
+﻿COUNTRIES = {
+	c:PRD ?= {
+		effect_starting_technology_tier_6_tech = yes
+
+		add_technology_researched = vertical_maneuvering_equipment
+
+		effect_starting_politics_traditional = yes
+
+		add_modifier = { # The vow renouncing war
+			name = vow_renouncing_war_modifier
+		}
+	}
+}
