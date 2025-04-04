@@ -1,0 +1,83 @@
+﻿building_wall_maria = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/building_wall_maria.dds"
+    expandable = no
+    buildable = no
+    downsizeable = no
+    unique = yes
+    # locator = "wall_maria_locator"
+
+    entity_not_constructed = { }
+    entity_under_construction = { "building_construction_3x3_entity" }
+    entity_constructed = { "wonder_forbidden_city_01_entity"}
+
+    # city_gfx_interactions = {}
+
+    # production_method_groups = {
+    #     pmg_base_building_wall_maria
+    # }
+
+    required_construction = construction_cost_monument
+
+    potential = {
+        state_region = s:STATE_NORTH_MADAGASCAR
+    }
+
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_wall_rose = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/building_wall_rose.dds"
+    expandable = no
+    buildable = no
+    downsizeable = no
+    unique = yes
+    # locator = "wall_rose_locator"
+
+    entity_not_constructed = { }
+    entity_under_construction = { "building_construction_3x3_entity" }
+    entity_constructed = { "wonder_forbidden_city_01_entity"}
+
+    # city_gfx_interactions = {}
+
+    # production_method_groups = {
+    #     pmg_base_building_wall_rose
+    # }
+
+    required_construction = construction_cost_monument
+
+    potential = {
+        state_region = s:STATE_SOUTH_MADAGASCAR
+    }
+
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_wall_sheena = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/building_wall_sheena.dds"
+    expandable = no
+    buildable = no
+    downsizeable = no
+    unique = yes
+    # locator = "wall_maria_locator"
+
+    entity_not_constructed = { }
+    entity_under_construction = { "building_construction_3x3_entity" }
+    entity_constructed = { "wonder_forbidden_city_01_entity"}
+
+    # city_gfx_interactions = {}
+
+    # production_method_groups = {
+    #     pmg_base_building_wall_sheena
+    # }
+
+    required_construction = construction_cost_monument
+
+    potential = {
+        state_region = s:STATE_SOUTH_MADAGASCAR
+    }
+
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
