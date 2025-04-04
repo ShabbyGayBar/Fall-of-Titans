@@ -1,0 +1,42 @@
+﻿PRD = {
+    color = { 117  150  120 }
+
+    country_type = unrecognized
+
+    tier = kingdom
+
+    cultures = { islandic_eldian }
+    capital = STATE_NORTH_MADAGASCAR
+}
+
+RAK = {
+    color = { 117  150  120 }
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { islandic_eldian }
+    capital = STATE_SOUTH_MADAGASCAR
+}
+
+MRL = {
+	color = { 180  158  127 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { marleyan }
+	capital = STATE_CAPE_COLONY
+}
+
+ELD = { # Eldian Empire
+    color = { 117  150  120 }
+
+    country_type = recognized
+
+    tier = empire
+
+    cultures = { continental_eldian islandic_eldian }
+    capital = STATE_CAPE_COLONY
+}

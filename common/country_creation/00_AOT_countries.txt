@@ -1,0 +1,28 @@
+﻿PRD = {
+	states = { STATE_NORTH_MADAGASCAR STATE_SOUTH_MADAGASCAR }
+	
+	required_num_states = 1
+
+	ai_will_do = { always = no }
+	
+}
+
+ELD = {
+	use_culture_states = yes
+	
+	required_num_states = 1
+
+	ai_will_do = { always = no }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+MRL = {
+	use_culture_states = yes
+	
+	required_num_states = 1
+
+	ai_will_do = { always = no }
+}
