@@ -1,0 +1,38 @@
+﻿titan_injection = {
+    # Unlocks Pure Titans PM in Barracks
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
+    category = military
+    can_research = no
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+vertical_maneuvering_equipment = {
+	# Unlocks Vertical Maneuvering Equipment PM in Barracks
+	era = era_5 # Fantasy tech
+	texture = "gfx/interface/icons/invention_icons/repeaters.dds"
+	category = military
+    can_research = no
+
+	ai_weight = {
+		value = 3
+	}
+}
+
+thunder_spear = {
+	# Unlocks Thunder Spear PM in Barracks
+	era = era_5 # Fantasy tech
+	texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
+	category = military
+
+	unlocking_technologies = {
+		vertical_maneuvering_equipment
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}
