@@ -187,3 +187,20 @@ attack_titan = {
 
 	weight = 0
 }
+
+### Royal bloodline traits
+
+royal_bloodline = {
+    type = personality
+    texture = "gfx/interface/icons/character_trait_icons/celebrity_commander.dds"
+
+    possible = {
+        # character's culture has ymir_heritage trait
+        OR = {
+            culture = cu:continental_eldian
+            culture = cu:islandic_eldian
+        }
+    }
+
+    weight = 0
+}
