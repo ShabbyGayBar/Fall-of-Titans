@@ -4,6 +4,11 @@ A Victoria 3 mod
 
 ## Features
 
+### Titan Shifters
+
+- Add the nine titan shifters & royal bloodline as character traits
+- Add _Curse of Ymir_ as a special mechanic, which kills any titan shifter after inheriting the titan power for 13 years
+
 ### Countries
 
 - Add _Marley_ as a playable country
@@ -16,16 +21,16 @@ A Victoria 3 mod
   - Primary culture: _Islandic Eldian_
 - Replace Merina Kindom (Madagascar) with _Paradis_ and _Rakuen_
 - Transfer all other African states to _Marley_
-- Replace Middle Eastern countries with _Arabia_ and set _Arabia_ as a _Marley_ protectorate
+- Transfer all Middle Eastern countries to _Ottoman Empire_ and set _Ottoman Empire_ as a _Marley_ protectorate
 
 ### Cultures
 
 - Add _Marleyan_ culture
   - European Heritage
-  - Marleyan Language
+  - Eldian Language
 - Add _Continental Eldian_ culture
   - Ymir Heritage
-  - Marleyan Language
+  - Eldian Language
 - Add _Islandic Eldian_ culture
   - Ymir Heritage
   - Eldian Language
@@ -36,6 +41,4 @@ A Victoria 3 mod
 - Add _Vertical Maneuver Equipment_ as a special unit
 - Add special military tech _Titan injection_ to unlock the above units
 
-### 
-
-### Flavor Contents
+## Flavor Contents
