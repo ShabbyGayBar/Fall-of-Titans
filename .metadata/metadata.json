@@ -1,0 +1,13 @@
+{
+  "name" : "Attack On Titan",
+	"id" : "",
+  "version" : "0.0.0",
+  "supported_game_version" : "1.8.*",
+  "short_description" : "",
+  "thumbnail": "thumbnail.png",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
