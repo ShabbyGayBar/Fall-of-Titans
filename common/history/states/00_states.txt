@@ -4167,6 +4167,7 @@ STATES = {
             owned_provinces = { x2B3FCB xB9259E xEA95C4 x9F5F4C x471161 xE655F6 }
         }
         add_homeland = cu:islandic_eldian
+        add_claim = c:PRD
     }
     s:STATE_NORTH_MADAGASCAR = {
         create_state = {
@@ -4180,6 +4181,7 @@ STATES = {
         }
 
         add_homeland = cu:islandic_eldian
+        add_claim = c:PRD
     }
     s:STATE_OROMIA = {
         create_state = {
