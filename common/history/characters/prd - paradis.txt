@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:PRD ?= {
+		create_character = {
+			# Founding titan
+			historical = yes
+			culture = cu:islandic_eldian
+			birth_date = 1830.1.1
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			is_ruler = yes
+			traits = {
+				trait_child
+				founding_titan
+				royal_bloodline
+			}
+			add_modifier = {
+				name = curse_of_ymir_modifier
+				duration = 156 # 13 years
+			}
+		}
+	}
+}

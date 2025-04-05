@@ -1,0 +1,75 @@
+﻿# Root = Character
+on_monthly_pulse_character = {
+    effect = {
+        if = {
+            limit = { # Character has lived for 13 years after inheriting the titan power
+                AND = {
+                    OR = {
+						has_trait = founding_titan
+						has_trait = colossal_titan
+						has_trait = war_hammer_titan
+						has_trait = female_titan
+						has_trait = armored_titan
+						has_trait = beast_titan
+						has_trait = jaw_titan
+						has_trait = cart_titan
+						has_trait = attack_titan
+					}
+                    NOT = { has_modifier = curse_of_ymir }
+                }
+            }
+			
+			random_character = { # A random Eldian character will inherit the titan power
+				limit = {
+					OR = {
+						culture = cu:continental_eldian
+						culture = cu:islandic_eldian
+					}
+				}
+				if = {
+					limit = { root.has_trait = founding_titan }
+					add_trait = founding_titan
+				}
+				if = {
+					limit = { root.has_trait = colossal_titan }
+					add_trait = colossal_titan
+				}
+				if = {
+					limit = { root.has_trait = war_hammer_titan }
+					add_trait = war_hammer_titan
+				}
+				if = {
+					limit = { root.has_trait = female_titan }
+					add_trait = female_titan
+				}
+				if = {
+					limit = { root.has_trait = armored_titan }
+					add_trait = armored_titan
+				}
+				if = {
+					limit = { root.has_trait = beast_titan }
+					add_trait = beast_titan
+				}
+				if = {
+					limit = { root.has_trait = jaw_titan }
+					add_trait = jaw_titan
+				}
+				if = {
+					limit = { root.has_trait = cart_titan }
+					add_trait = cart_titan
+				}
+				if = {
+					limit = { root.has_trait = attack_titan }
+					add_trait = attack_titan
+				}
+
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 156 # 13 years
+				}
+			}
+
+			kill_character = yes # Ymir will come to claim his/her life
+        }
+    }
+}
