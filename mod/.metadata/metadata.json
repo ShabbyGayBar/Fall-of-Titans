@@ -1,11 +1,11 @@
 {
-  "name" : "Attack On Titan",
+  "name" : "Fall of Titans (Attack on Titan)",
 	"id" : "",
   "version" : "0.0.0",
   "supported_game_version" : "1.8.*",
   "short_description" : "",
   "thumbnail": "thumbnail.png",
-  "tags" : [],
+  "tags" : ["alternate history"],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true
