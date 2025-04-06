@@ -1,0 +1,68 @@
+﻿### ARMY
+
+### Infantry
+
+combat_unit_type_pure_titans = {
+    group = combat_unit_group_infantry
+
+    battle_modifier = {
+        unit_offense_add = 30
+        unit_defense_add = 30
+        unit_morale_loss_add = 4
+        unit_kill_rate_add = 0.2
+        unit_devastation_mult = 1
+   }
+	
+    upkeep_modifier = {
+    }
+
+	unlocking_technologies = { titan_injection }
+
+    # scope = country
+    # both this and "can_build" needs to be true to build conscripts
+    can_build_conscript = {
+        always = no
+    }
+    
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/infantry_eu_irregular.dds"
+    }
+
+	upgrades = {
+		combat_unit_type_line_infantry
+		combat_unit_type_skirmish_infantry
+        combat_unit_type_trench_infantry
+        combat_unit_type_squad_infantry
+        combat_unit_type_mechanized_infantry
+	}
+}
+
+combat_unit_type_vertical_maneuvering_infantry = {
+    group = combat_unit_group_infantry
+
+    upkeep_modifier = {
+        goods_input_small_arms_add = 1
+    }
+
+    battle_modifier = {
+        unit_offense_add = 35
+        unit_defense_add = 10
+        unit_morale_loss_add = 10
+    }
+
+	unlocking_technologies = { vertical_maneuvering_equipment }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/infantry_eu_line.dds"
+    }
+
+	upgrades = {
+		combat_unit_type_line_infantry
+		combat_unit_type_skirmish_infantry
+        combat_unit_type_trench_infantry
+        combat_unit_type_squad_infantry
+        combat_unit_type_mechanized_infantry
+	}
+}
