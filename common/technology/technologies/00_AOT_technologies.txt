@@ -12,7 +12,7 @@
 
 vertical_maneuvering_equipment = {
 	# Unlocks Vertical Maneuvering Equipment PM in Barracks
-	era = era_5 # Fantasy tech
+	era = era_1
 	texture = "gfx/interface/icons/invention_icons/repeaters.dds"
 	category = military
     can_research = no
@@ -24,7 +24,7 @@ vertical_maneuvering_equipment = {
 
 thunder_spear = {
 	# Unlocks Thunder Spear PM in Barracks
-	era = era_5 # Fantasy tech
+	era = era_1
 	texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
 	category = military
 
@@ -33,6 +33,6 @@ thunder_spear = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 1
 	}
 }
