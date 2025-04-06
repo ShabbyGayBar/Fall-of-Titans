@@ -1,4 +1,6 @@
-# AttackOnTitan
+# Fall of Titans (Attack on Titan)
+
+[简体中文](README_zh-CN.md)
 
 A Victoria 3 mod that takes place in the world of _Attack on Titan_ (Shingeki no Kyojin). Starting in the year 832, when Grisha Yeager and other members of the Eldian Restorationists were sent to _exile_ on the island of Paradis.
 
@@ -48,7 +50,8 @@ Three major factions are present in the game:
 ### Units
 
 - Add _Pure Titans_ as a special unit
+  - Unlocked by _Titan Injection_ special technology
 - Add _Vertical Maneuver Equipment_ as a special unit
-- Add special military tech _Titan injection_ to unlock the above units
+  - Unlocked by _Vertical Maneuver Equipment_ special technology
 
 ## Flavor Contents
