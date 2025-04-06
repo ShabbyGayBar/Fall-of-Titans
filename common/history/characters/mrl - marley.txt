@@ -2,132 +2,125 @@
 	c:MRL ?= {
 		create_character = {
 			# Colossal Titan
-			historical = yes
 			culture = cu:continental_eldian
-			birth_date = 1807.6.2 # reigned from 1833–1845, birth date unknown
+			birth_date = 1816.1.1
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			is_general = yes
 			traits = {
-				imperious
 				colossal_titan
 			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 24 # 2 years
+			on_created = {
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 156 # 13 years
+				}
 			}
 		}	
 
 		create_character = {
 			# War Hammer Titan
 			last_name = "Tybur"
-			historical = yes
+			noble = yes
 			culture = cu:continental_eldian
-			birth_date = 1821.3.1 # reigned from 1845–1855, birth date unknown
+			birth_date = 1807.1.1
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			is_general = yes
 			traits = {
-				trait_child
 				war_hammer_titan
 			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 156 # 13 years
+			on_created = {
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 48 # 4 years
+				}
 			}
 		}
 
 		create_character = {
 			# Female Titan
-			historical = yes
+			female = yes
 			culture = cu:continental_eldian
-			birth_date = 1830.1.1
+			birth_date = 1816.1.1
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			is_general = yes
 			traits = {
-				trait_child
 				female_titan
 			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 156 # 13 years
+			on_created = {
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 156 # 13 years
+				}
 			}
 		}
 
 		create_character = {
 			# Armored Titan
-			historical = yes
 			culture = cu:continental_eldian
-			birth_date = 1830.1.1
+			birth_date = 1816.1.1
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			is_general = yes
 			traits = {
-				trait_child
 				armored_titan
 			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 156 # 13 years
+			on_created = {
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 156 # 13 years
+				}
 			}
 		}
 
 		create_character = {
-			# Beast Titan
-			first_name = "Tom"
-			last_name = "Ksaver"
-			historical = yes
-			culture = cu:continental_eldian
-			birth_date = 1810.1.1
-			interest_group = ig_landowners
-			ideology = ideology_pacifist
-			is_general = yes
-			traits = {
-				psychological_affliction
-				beast_titan
-			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 24 # 2 years
-			}
+			template = MRL_tom_ksaver_template
 		}
 
 		create_character = {
 			# Jaw Titan
-			historical = yes
 			culture = cu:continental_eldian
-			birth_date = 1830.1.1
+			birth_date = 1816.1.1
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			is_general = yes
 			traits = {
-				trait_child
 				jaw_titan
 			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 156 # 13 years
+			on_created = {
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 156 # 13 years
+				}
 			}
 		}
 
 		create_character = {
 			# Cart Titan
-			last_name = "Tybur"
-			historical = yes
 			culture = cu:continental_eldian
-			birth_date = 1830.1.1
+			birth_date = 1821.1.1
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			is_general = yes
 			traits = {
-				trait_child
 				cart_titan
 			}
-			add_modifier = {
-				name = curse_of_ymir_modifier
-				duration = 156 # 13 years
+			on_created = {
+				add_modifier = {
+					name = curse_of_ymir_modifier
+					duration = 96 # 8 years
+				}
 			}
+		}
+
+		create_character = {
+			template = MRL_willy_tybur_template
+		}
+
+		create_character = {
+			template = MRL_theo_magath_template
 		}
 	}
 }

@@ -1,0 +1,58 @@
+﻿### Paradis character template file ###
+
+PRD_uri_reiss_template = {
+    # Uri Reiss
+    first_name = "Uri"
+    last_name = "Reiss"
+    ruler = yes
+    historical = yes
+    noble = yes
+    culture = cu:islandic_eldian
+    birth_date = 1813.1.1
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        founding_titan
+        royal_bloodline
+    }
+    on_created = {
+        add_modifier = {
+            name = curse_of_ymir_modifier
+            duration = 120 # 10 years
+        }
+    }
+}
+
+PRD_frida_reiss_template = {
+    # Frida Reiss
+    first_name = "Frida"
+    last_name = "Reiss"
+    heir = yes
+    historical = yes
+    female = yes
+    noble = yes
+    culture = cu:islandic_eldian
+    birth_date = 1831.2.2
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        trait_child
+        royal_bloodline
+    }
+}
+
+PRD_rod_reiss_template = {
+    # Rod Reiss
+    first_name = "Rod"
+    last_name = "Reiss"
+    ig_leader = yes
+    historical = yes
+    noble = yes
+    culture = cu:islandic_eldian
+    birth_date = 1812.9.15
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        royal_bloodline
+    }
+}

@@ -1,0 +1,55 @@
+﻿### Marleyan character template file ###
+
+MRL_tom_ksaver_template = {
+    # Beast Titan
+    first_name = "Tom"
+    last_name = "Ksaver"
+    historical = yes
+    culture = cu:continental_eldian
+    birth_date = 1810.1.1
+    interest_group = ig_landowners
+    ideology = ideology_pacifist
+    is_general = yes
+    traits = {
+        beast_titan
+    }
+    on_created = {
+        add_modifier = {
+            name = curse_of_ymir_modifier
+            duration = 120 # 10 years
+        }
+    }
+}
+
+MRL_willy_tybur_template = {
+    # Willy Tybur
+    first_name = "Willy"
+    last_name = "Tybur"
+    historical = yes
+    noble = yes
+    culture = cu:continental_eldian
+    birth_date = 1807.1.1
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    ig_leader = yes
+    traits = {
+        charismatic
+    }
+}
+
+MRL_theo_magath_template = {
+    # Theo Magath
+    first_name = "Theo"
+    last_name = "Magath"
+    historical = yes
+    culture = cu:marleyan
+    birth_date = 1807.1.1
+    interest_group = ig_armed_forces
+    ideology = ideology_traditionalist
+    ig_leader = yes
+    is_general = yes
+    traits = {
+        brave
+        basic_artillery_commander
+    }
+}
