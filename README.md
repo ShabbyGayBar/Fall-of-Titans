@@ -2,7 +2,9 @@
 
 [简体中文](README_zh-CN.md)
 
-A Victoria 3 mod that takes place in the world of _Attack on Titan_ (Shingeki no Kyojin). Starting in the year 832, when Grisha Yeager and other members of the Eldian Restorationists were sent to _exile_ on the island of Paradis.
+A Victoria 3 mod that takes place in the world of _Attack on Titan_ (Shingeki no Kyojin).
+
+Starting in the year 832, when Grisha Yeager and other members of the Eldian Restorationists were sent to _exile_ on the island of Paradis.
 
 Three major factions are present in the game:
 - Marley:
@@ -33,7 +35,6 @@ Three major factions are present in the game:
   - Primary culture: _Islandic Eldian_
 - Replace Merina Kindom (Madagascar) with _Paradis_ and _Rakuen_
 - Transfer all other African states to _Marley_
-- Transfer all Middle Eastern countries to _Ottoman Empire_ and set _Ottoman Empire_ as a _Marley_ protectorate
 
 ### Cultures
 
@@ -54,4 +55,23 @@ Three major factions are present in the game:
 - Add _Vertical Maneuver Equipment_ as a special unit
   - Unlocked by _Vertical Maneuver Equipment_ special technology
 
-## Flavor Contents
+### Buildings
+
+- Add the three walls as special monuments
+
+### Characters
+
+- Add characters that appeared in the year 832
+
+## Future Plans
+
+- Transfer all Middle Eastern countries to _Arabia_ and set _Arabia_ as a _Marley_ protectorate
+- Add _Arabian_ independence war backed by other great powers against _Marley_
+- Add character dna data
+- Add more characters
+- Add _the coordinate system_ journal entry, granting the founding titan the ability to manipulate Eldians (including activating the _rumbling_)
+- Add special resource _iceburst stone_ for _Paradis_
+
+## Acknowledgements
+
+- This mod is inspired by Hajime Isayama's manga series _Attack on Titan_.
