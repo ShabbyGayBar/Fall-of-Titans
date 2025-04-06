@@ -10,14 +10,5 @@
 
 		effect_starting_politics_traditional = yes
 
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 3
-		}
-
-		set_institution_investment_level = {
-			institution = institution_police
-			level = 1
-		}
 	}
 }

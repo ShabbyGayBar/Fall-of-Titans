@@ -3,8 +3,22 @@
 		effect_starting_technology_tier_6_tech = yes
 
 		add_technology_researched = vertical_maneuvering_equipment
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = rationalism
 
-		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_closed_borders
 
 		add_modifier = { # The vow renouncing war
 			name = vow_renouncing_war_modifier
