@@ -68,6 +68,8 @@ Three major factions are present in the game:
 - Transfer all Middle Eastern countries to _Arabia_ and set _Arabia_ as a _Marley_ protectorate
 - Add _Arabian_ independence war backed by other great powers against _Marley_
 - Add character dna data
+- Add thumbnails for buildings and special units
+- Add titan shifter inheritance mechanics (possibly through special events)
 - Add more characters
 - Add _the coordinate system_ journal entry, granting the founding titan the ability to manipulate Eldians (including activating the _rumbling_)
 - Add special resource _iceburst stone_ for _Paradis_
