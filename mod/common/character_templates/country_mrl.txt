@@ -2,8 +2,8 @@
 
 MRL_tom_ksaver_template = {
     # Beast Titan
-    first_name = "Tom"
-    last_name = "Ksaver"
+    first_name = Tom
+    last_name = Ksaver
     historical = yes
     culture = cu:continental_eldian
     birth_date = 1810.1.1
@@ -23,8 +23,8 @@ MRL_tom_ksaver_template = {
 
 MRL_willy_tybur_template = {
     # Willy Tybur
-    first_name = "Willy"
-    last_name = "Tybur"
+    first_name = Willy
+    last_name = Tybur
     historical = yes
     noble = yes
     culture = cu:continental_eldian
@@ -39,8 +39,8 @@ MRL_willy_tybur_template = {
 
 MRL_theo_magath_template = {
     # Theo Magath
-    first_name = "Theo"
-    last_name = "Magath"
+    first_name = Theo
+    last_name = Magath
     historical = yes
     culture = cu:marleyan
     birth_date = 1807.1.1

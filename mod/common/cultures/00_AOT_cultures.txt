@@ -7,7 +7,7 @@
 		Abel Alois Armin Artur Aurille
 		Beane Beirer Bertholdt Boris Bruno Buchwald
 		Calvi Carlo Carsten Caven Colt Conny
-		Darius Daz Deltoff Dennis Dhalis Dieter Dimo Dina Dirk Djel Dot Duran
+		Darius Daz Deltoff Dennis Dhalis Dieter Dimo Dirk Djel Dot Duran
 		Eld Elliot Eren
 		Falco Flagon Flegel Floch Franz Furlan
 		Gelgar Gerald Gordon Greiz Grisha Gunther Gustav
@@ -32,6 +32,7 @@
     female_common_first_names = {
 		Abel Alma Anka Annie
 		Carly Charrette
+		Dina
 		Ellie
 		Fay Fine Florian Frieda
 		Gabi
@@ -59,7 +60,7 @@
 		Galliard Gin Grice
 		Hoover
 		Jackson Jaeger Jarnach
-		Kefka KirschteinKline Kruger
+		Kefka Kirschtein Kline Kruger
 		Langnar Leonhart
 		Magath Magnolia Martin
 		Ness
@@ -72,29 +73,6 @@
         Zacharius Zachary Zeremski Zoe
     }
 
-	male_regal_first_names = {
-		Adalbert
-		Friedrich Friedrich_Wilhelm
-		Georg
-		Heinrich
-		Joachim
-		Oskar
-		Sigismund
-		Wilhelm Waldermar
-	}
-	female_regal_first_names = {
-		Augusta
-		Charlotte
-		Elisabeth
-		Luise
-		Margarethe
-		Sophie
-		Victoria
-	}
-	regal_last_names = {
-		# populate with names here
-	}	
-	
 	ethnicities = {
 		1 = caucasian
 	}
@@ -110,7 +88,7 @@ continental_eldian = {
 		Abel Alois Armin Artur Aurille
 		Beane Beirer Bertholdt Boris Bruno Buchwald
 		Calvi Carlo Carsten Caven Colt Conny
-		Darius Daz Deltoff Dennis Dhalis Dieter Dimo Dina Dirk Djel Dot Duran
+		Darius Daz Deltoff Dennis Dhalis Dieter Dimo Dirk Djel Dot Duran
 		Eld Elliot Eren
 		Falco Flagon Flegel Floch Franz Furlan
 		Gelgar Gerald Gordon Greiz Grisha Gunther Gustav
@@ -135,6 +113,7 @@ continental_eldian = {
     female_common_first_names = {
 		Abel Alma Anka Annie
 		Carly Charrette
+		Dina
 		Ellie
 		Fay Fine Florian Frieda
 		Gabi
@@ -153,7 +132,6 @@ continental_eldian = {
     noble_last_names = {
 		Fritz
 		Lovof
-        Reiss
 		Tybur
     }
     common_last_names = {
@@ -165,7 +143,7 @@ continental_eldian = {
 		Galliard Gin Grice
 		Hoover
 		Jackson Jaeger Jarnach
-		Kefka KirschteinKline Kruger
+		Kefka Kirschtein Kline Kruger
 		Langnar Leonhart
 		Magath Magnolia Martin
 		Ness
@@ -193,7 +171,7 @@ islandic_eldian = {
 		Abel Alois Armin Artur Aurille
 		Beane Beirer Bertholdt Boris Bruno Buchwald
 		Calvi Carlo Carsten Caven Colt Conny
-		Darius Daz Deltoff Dennis Dhalis Dieter Dimo Dina Dirk Djel Dot Duran
+		Darius Daz Deltoff Dennis Dhalis Dieter Dimo Dirk Djel Dot Duran
 		Eld Elliot Eren
 		Falco Flagon Flegel Floch Franz Furlan
 		Gelgar Gerald Gordon Greiz Grisha Gunther Gustav
@@ -218,6 +196,7 @@ islandic_eldian = {
     female_common_first_names = {
 		Abel Alma Anka Annie
 		Carly Charrette
+		Dina
 		Ellie
 		Fay Fine Florian Frieda
 		Gabi
@@ -247,7 +226,7 @@ islandic_eldian = {
 		Galliard Gin Grice
 		Hoover
 		Jackson Jaeger Jarnach
-		Kefka KirschteinKline Kruger
+		Kefka Kirschtein Kline Kruger
 		Langnar Leonhart
 		Magath Magnolia Martin
 		Ness

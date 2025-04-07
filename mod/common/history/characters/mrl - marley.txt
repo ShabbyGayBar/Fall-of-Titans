@@ -20,7 +20,7 @@
 
 		create_character = {
 			# War Hammer Titan
-			last_name = "Tybur"
+			last_name = Tybur
 			noble = yes
 			culture = cu:continental_eldian
 			birth_date = 1807.1.1
