@@ -16,7 +16,7 @@ MRL_tom_ksaver_template = {
     on_created = {
         add_modifier = {
             name = curse_of_ymir_modifier
-            duration = 120 # 10 years
+            months = 120 # 10 years
         }
     }
 }
