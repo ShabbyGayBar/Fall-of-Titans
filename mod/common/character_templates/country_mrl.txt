@@ -3,7 +3,7 @@
 MRL_tom_ksaver_template = {
     # Beast Titan
     first_name = Tom
-    last_name = Ksaver
+    last_name = Xaver
     historical = yes
     culture = cu:continental_eldian
     birth_date = 1810.1.1
