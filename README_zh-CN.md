@@ -1,5 +1,8 @@
 # 维多利亚3进击的巨人mod
 
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3459683344?logo=steam)
+![Steam Downloads](https://img.shields.io/steam/downloads/3459683344?logo=steam)
+
 本mod尝试尽可能利用维多利亚3游戏本体的机制，替换本体中体验堪称依托答辩的非洲殖民，重现《进击的巨人》的世界观。
 
 游戏开始设定在832年，此时格里沙·耶格尔和其他艾尔迪亚复兴主义者刚被流放到帕拉迪岛。

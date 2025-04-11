@@ -1,5 +1,8 @@
 # Fall of Titans (Attack on Titan)
 
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3459683344?logo=steam)
+![Steam Downloads](https://img.shields.io/steam/downloads/3459683344?logo=steam)
+
 [简体中文](README_zh-CN.md)
 
 A Victoria 3 mod that takes place in the world of _Attack on Titan_ (Shingeki no Kyojin).
