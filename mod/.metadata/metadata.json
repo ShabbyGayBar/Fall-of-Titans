@@ -1,9 +1,9 @@
 {
   "name" : "Fall of Titans (Attack on Titan)",
-	"id" : "",
+	"id" : "3459683344",
   "version" : "0.0.0",
   "supported_game_version" : "1.8.*",
-  "short_description" : "",
+  "short_description" : "A Victoria 3 mod that takes place in the world of _Attack on Titan_ (Shingeki no Kyojin).",
   "thumbnail": "thumbnail.png",
   "tags" : ["alternate history"],
   "relationships" : [],
