@@ -13,7 +13,7 @@
 			on_created = {
 				add_modifier = {
 					name = curse_of_ymir_modifier
-					months = 156 # 13 years
+					months = curse_of_ymir_time
 				}
 			}
 		}	
@@ -52,7 +52,7 @@
 			on_created = {
 				add_modifier = {
 					name = curse_of_ymir_modifier
-					months = 156 # 13 years
+					months = curse_of_ymir_time
 				}
 			}
 		}
@@ -70,7 +70,7 @@
 			on_created = {
 				add_modifier = {
 					name = curse_of_ymir_modifier
-					months = 156 # 13 years
+					months = curse_of_ymir_time
 				}
 			}
 		}
@@ -92,7 +92,7 @@
 			on_created = {
 				add_modifier = {
 					name = curse_of_ymir_modifier
-					months = 156 # 13 years
+					months = curse_of_ymir_time
 				}
 			}
 		}

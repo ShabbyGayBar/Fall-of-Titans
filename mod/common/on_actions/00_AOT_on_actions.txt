@@ -15,7 +15,7 @@ on_monthly_pulse_character = {
 						has_trait = cart_titan
 						has_trait = attack_titan
 					}
-                    NOT = { has_modifier = curse_of_ymir }
+                    NOT = { has_modifier = curse_of_ymir_modifier }
                 }
             }
 			
@@ -65,7 +65,7 @@ on_monthly_pulse_character = {
 
 				add_modifier = {
 					name = curse_of_ymir_modifier
-					months = 156 # 13 years
+					months = curse_of_ymir_time
 				}
 			}
 
