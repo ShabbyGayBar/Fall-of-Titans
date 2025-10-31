@@ -10,7 +10,7 @@ except_list = ["s:STATE_ALGIERS", "s:STATE_CONSTANTINE", "s:STATE_ORAN", "s:STAT
 
 def main():
     mod = Mod(game_dir, mod_dir)
-    mod.consolidate("c:MRL", except_list)
+    mod.consolidate("region_state:MRL", except_list)
     return
 
 if __name__ == "__main__":

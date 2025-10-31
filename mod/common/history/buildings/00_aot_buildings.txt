@@ -1,6 +1,6 @@
 ﻿BUILDINGS = {
     s:STATE_LOWER_EGYPT = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_government_administration"
                 add_ownership = {
@@ -254,7 +254,7 @@
         }
     }
     s:STATE_UPPER_EGYPT = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_wheat_farm"
                 add_ownership = {
@@ -291,7 +291,7 @@
         }
     }
     s:STATE_MIDDLE_EGYPT = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_government_administration"
                 add_ownership = {
@@ -388,19 +388,19 @@
         }
     }
     s:STATE_EGYPTIAN_DESERT = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_MATRUH = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_SINAI = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_ERITREA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_fishing_wharf"
                 add_ownership = {
@@ -439,7 +439,7 @@
         }
     }
     s:STATE_DONGOLA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -478,7 +478,7 @@
         }
     }
     s:STATE_KORDOFAN = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -500,7 +500,7 @@
         }
     }
     s:STATE_DARFUR = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -535,7 +535,7 @@
         }
     }
     s:STATE_BLUE_NILE = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -608,7 +608,7 @@
         }
     }
     s:STATE_MARRAKECH = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_government_administration"
                 add_ownership = {
@@ -717,7 +717,7 @@
         }
     }
     s:STATE_FEZ = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_government_administration"
                 add_ownership = {
@@ -829,7 +829,7 @@
         }
     }
     s:STATE_AL_RIF = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -912,7 +912,7 @@
         }
     }
     s:STATE_INNER_MOROCCO = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -1505,7 +1505,7 @@
         }
     }
     s:STATE_TUNISIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_trade_center"
                 add_ownership = {
@@ -1624,7 +1624,7 @@
         }
     }
     s:STATE_TRIPOLI = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_fishing_wharf"
                 add_ownership = {
@@ -1688,7 +1688,7 @@
         }
     }
     s:STATE_LIBYA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_fishing_wharf"
                 add_ownership = {
@@ -1738,15 +1738,15 @@
         }
     }
     s:STATE_LIBYAN_DESERT = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_SAHARA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_EAST_SAHARA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_barracks"
                 add_ownership = {
@@ -1763,11 +1763,11 @@
         }
     }
     s:STATE_WEST_SAHARA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_MAURITANIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_barracks"
                 add_ownership = {
@@ -1788,11 +1788,11 @@
         }
     }
     s:STATE_INNER_MAURITANIA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_EASTERN_MALI = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -1844,7 +1844,7 @@
         }
     }
     s:STATE_WESTERN_MALI = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -1900,15 +1900,15 @@
         }
     }
     s:STATE_TIMBUKTU = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_NIGER = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_CHAD = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -1949,7 +1949,7 @@
         }
     }
     s:STATE_IVORY_COAST = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_port"
                 add_ownership = {
@@ -1966,11 +1966,11 @@
         }
     }
     s:STATE_WINDWARD_COAST = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_SENEGAL = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_sugar_plantation"
                 add_ownership = {
@@ -2033,7 +2033,7 @@
         }
     }
     s:STATE_GAMBIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2071,7 +2071,7 @@
         }
     }
     s:STATE_SIERRA_LEONE = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2105,11 +2105,11 @@
         }
     }
     s:STATE_VOLTA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_LIBERIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2159,7 +2159,7 @@
         }
     }
     s:STATE_HAUSALAND = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_government_administration"
                 add_ownership = {
@@ -2265,7 +2265,7 @@
         }
     }
     s:STATE_BENIN = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2317,7 +2317,7 @@
         }
     }
     s:STATE_YORUBA_STATES = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2367,11 +2367,11 @@
         }
     }
     s:STATE_NIGER_DELTA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_OUTER_HAUSALAND = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -2439,7 +2439,7 @@
         }
     }
     s:STATE_BORNU = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2473,7 +2473,7 @@
         }
     }
     s:STATE_NIGERIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2523,7 +2523,7 @@
         }
     }
     s:STATE_EAST_HAUSALAND = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_tobacco_plantation"
                 add_ownership = {
@@ -2607,7 +2607,7 @@
         }
     }
     s:STATE_GUINEA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2641,7 +2641,7 @@
         }
     }
     s:STATE_GHANA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_port"
                 add_ownership = {
@@ -2693,7 +2693,7 @@
         }
     }
     s:STATE_TOGO = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_dye_plantation"
                 add_ownership = {
@@ -2739,7 +2739,7 @@
         }
     }
     s:STATE_DAHOMEY = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -2799,11 +2799,11 @@
         }
     }
     s:STATE_LINDI = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_ZANZIBAR = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_coffee_plantation"
                 add_ownership = {
@@ -2899,7 +2899,7 @@
         }
     }
     s:STATE_TANGANYIKA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_barracks"
                 add_ownership = {
@@ -2948,7 +2948,7 @@
         }
     }
     s:STATE_KENYA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_fishing_wharf"
                 add_ownership = {
@@ -3014,11 +3014,11 @@
         }
     }
     s:STATE_RIFT_VALLEY = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_OROMIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3140,7 +3140,7 @@
         }
     }
     s:STATE_AMHARA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3272,7 +3272,7 @@
         }
     }
     s:STATE_GONDER = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3416,11 +3416,11 @@
         }
     }
     s:STATE_KAZEMBE = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_SOMALILAND = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -3663,7 +3663,7 @@
         }
     }
     s:STATE_UGANDA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3721,11 +3721,11 @@
         }
     }
     s:STATE_EQUATORIA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_MOCAMBIQUE = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3816,7 +3816,7 @@
         }
     }
     s:STATE_WADDAI = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3854,7 +3854,7 @@
         }
     }
     s:STATE_NORTH_CAMEROON = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3888,7 +3888,7 @@
         }
     }
     s:STATE_SOUTH_CAMEROON = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_port"
                 add_ownership = {
@@ -3905,23 +3905,23 @@
         }
     }
     s:STATE_UBANGI_SHARI = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_CONGO = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_CONGO_ORIENTALE = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_KASAI = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_BAS_CONGO = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -3955,11 +3955,11 @@
         }
     }
     s:STATE_EQUATEUR = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_NORTH_ANGOLA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -4025,7 +4025,7 @@
         }
     }
     s:STATE_SOUTH_ANGOLA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_coffee_plantation"
                 add_ownership = {
@@ -4062,23 +4062,23 @@
         }
     }
     s:STATE_EAST_ANGOLA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_KATANGA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_GABON = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_ZAMBIA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_ZAMBEZIA = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_dye_plantation"
                 add_ownership = {
@@ -4098,19 +4098,19 @@
         }
     }
     s:STATE_ZAMBEZI = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_NAMAQUALAND = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_HEREROLAND = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_ZULULAND = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -4145,7 +4145,7 @@
         }
     }
     s:STATE_VRYSTAAT = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -4180,7 +4180,7 @@
         }
     }
     s:STATE_TRANSVAAL = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
@@ -4232,7 +4232,7 @@
         }
     }
     s:STATE_EASTERN_CAPE = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_wheat_farm"
                 add_ownership = {
@@ -4287,7 +4287,7 @@
         }
     }
     s:STATE_CAPE_COLONY = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_wheat_farm"
                 add_ownership = {
@@ -4353,7 +4353,7 @@
         }
     }
     s:STATE_NORTHERN_CAPE = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
@@ -4375,11 +4375,11 @@
         }
     }
     s:STATE_BOTSWANA = {
-        c:MRL = {
+        region_state:MRL = {
         }
     }
     s:STATE_LOURENCO_MARQUES = {
-        c:MRL = {
+        region_state:MRL = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
